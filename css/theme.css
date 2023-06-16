@@ -203,3 +203,130 @@ input[type=email]:focus, input[type=text]:focus, textarea:focus{
     border-bottom: unset !important;
 
 }
+/*Responsive*/
+@media (min-width: 1440px){
+    .wp-block-columns{
+        display: flex;
+        justify-content: center !important;
+    }
+}
+@media (max-width: 1440px){
+    .section-perso-radius-light{
+        border-bottom-left-radius: 50% 5%;
+        border-bottom-right-radius: 50% 5%;
+    } 
+    .section-perso-radius-medium{
+        border-bottom-left-radius: 50% 10%;
+        border-bottom-right-radius: 50% 10%;
+    } 
+    .section-perso-radius-heavy{
+        border-bottom-left-radius: 50% 10%;
+        border-bottom-right-radius: 50% 10%;
+    }
+    .perso-column {
+        flex-direction: column;
+    }
+}
+@media  (max-width: 1200px){
+    .img-sectionmeet-perso{
+        padding-top: 40px;
+    }
+    .perso-sectioncommand h3{
+        font-size: 20px;
+    }
+}
+@media (max-width: 921px){
+    .section-perso-radius-light{
+        border-bottom-left-radius: 50% 5%;
+        border-bottom-right-radius: 50% 5%;
+    } 
+    .section-perso-radius-medium{
+        border-bottom-left-radius: 50% 10%;
+        border-bottom-right-radius: 50% 10%;
+    } 
+    .section-perso-radius-heavy{
+        border-bottom-left-radius: 50% 10%;
+        border-bottom-right-radius: 50% 10%;
+    } 
+    .img-sectionmeet-perso{
+        display: flex;
+        justify-content: center;
+    }
+    .perso-section3 h3{
+        font-size: 38px !important;
+    }
+    .perso-sectioncommand{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 781px){
+    .perso-column{
+        text-align: center;
+    }
+    .perso-column > .wp-block-column{
+        margin-bottom: 80px !important;
+    }
+    .resp-block-hide-perso{
+        display: none;
+    }
+    .perso-section3 > .wp-block-group{
+        flex-direction: column;
+    }
+    .perso-section3 > .is-layout-flex{
+        align-items: unset;
+    }
+    .page-commandes h3:first-of-type{
+        margin: 50px auto !important;
+    }
+    .perso-sectioncommand .wp-block-columns:last-child > .wp-block-column{
+        flex-basis: unset !important;
+        width: 25%;
+    }
+    #formcommand{
+        display: inherit;
+        margin-top: -50px;
+    }
+    #forminfos{
+        border-right: none;
+    }
+    #forminfos p{
+        padding-bottom: 50px;
+        border-bottom: solid 2px #fff;;
+    }
+    .perso-sectioncommand {
+        margin-bottom: 80px !important;
+    }
+    #forminfos h3, #formlivr h3{
+        margin: 40px 0 !important;
+    }
+}
+@media (max-width: 544px){
+    h2{
+        font-size: 22px !important;
+    }
+    .perso-section3 h3 {
+        font-size: 30px !important;
+    }
+    #wpcf7-f252-p46-o1{
+        padding: unset;
+    }
+    .section-perso-radius-light{
+        border-bottom-left-radius: 50% 2%;
+        border-bottom-right-radius: 50% 2%;
+    } 
+    .section-perso-radius-medium{
+        border-bottom-left-radius: 50% 5%;
+        border-bottom-right-radius: 50% 5%;
+    } 
+    .section-perso-radius-heavy{
+        border-bottom-left-radius: 50% 5%;
+        border-bottom-right-radius: 50% 5%;
+    } 
+    .perso-sectioncommand .wp-block-columns:last-child > .wp-block-column{
+        width: 50%;
+    }
+    .boutons-commandes .wp-block-column:not(:last-child){
+        margin-bottom: unset !important;
+    }
+}
