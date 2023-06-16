@@ -1,0 +1,205 @@
+/*General */
+#menu-item-50 a{
+    color: #000;
+    font-size: 1.25rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#menu-item-50 a:hover{
+    background: #c02e44;
+    color: #fff
+}
+.site-primary-header-wrap{
+    padding-right: unset;
+}
+.site-primary-footer-wrap{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.section-perso-radius-light{
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 5%;
+} 
+
+.section-perso-radius-medium{
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+} 
+.section-perso-radius-heavy{
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+} 
+.section-perso-shadow{
+    box-shadow: 0 12px rgba(228, 217, 209, 1);
+}
+#primary{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.wp-block-columns{
+    display: flex;
+    justify-content: center !important;
+}
+.perso-sectioncommand > .wp-block-column, .perso-section3 h3{
+    hyphens: auto;
+}
+.perso-sectioncommand .wp-block-cover{
+    min-height: 200px !important;
+    max-height: 200px !important;
+}
+.perso-sectioncommand h3{
+    font-size: 30px;
+}
+/*Formulaires général*/
+.wpcf7 label{
+    font-size: 20px;
+    line-height: 2em;
+}
+.wpcf7 form.invalid .wpcf7-response-output{
+    display: flex;
+    justify-content: center;
+    border-color: unset;
+}
+.wpcf7-not-valid-tip{
+    color: #c02e44;
+}
+/*Formulaire de contact 1*/
+#wpcf7-f252-p46-o1{
+    display: flex;
+    justify-content: center;
+    max-width: 550px;
+    margin: auto;
+    padding: 0 80px 80px 80px;
+    background-image: url('../backgroundimage/Group-16.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 72%;
+}
+.wpcf7-form{
+    width: 100%;
+}
+input[type=email], input[type=text], textarea{
+    background-color: #fff;
+    border-radius: 7px;
+    border: unset;
+}
+#wpcf7-f252-p46-o1 input[type=submit]{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/*Formulaire Commander*/
+#wpcf7-f385-p44-o1{
+    margin: auto;
+}
+#wpcf7-f385-p44-o1 h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+}
+#formcommand{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 45px 0px;
+    width: 100%;
+}
+#formcommand p{
+    margin-bottom: unset;
+}
+#forminfos {
+    border-right: solid 2px #fff;
+}
+#forminfos, #formlivr{
+    display: inline !important;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.wpcf7-form{
+    width: 100%;
+}
+input[type=email], input[type=text], textarea{
+    background-color: #fff;
+    border-radius: 7px;
+    border: unset;
+}
+#formcommand input[type=email], #formcommand input[type=text], #formcommand textarea{
+    line-height: 2.5em;
+}
+input[type=email]:focus, input[type=text]:focus, textarea:focus{
+    border: unset;
+}
+#wpcf7-f385-p44-o1 input[type=submit]{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/*Boutons dans le formulaire Commander*/
+#wpcf7-f413-p44-o1 .wpcf7-form{
+    width: 100%;
+}
+#wpcf7-f413-p44-o1 p{
+    display: flex;
+}
+
+#wpcf7-f413-p44-o1 input[type=submit]{
+    margin-left: 15px;
+}
+.boutons-commandes, .wp-block-buttons{
+    gap: 0 !important;
+}
+.boutons-commandes .wp-block-button{
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+}
+.boutons-commandes .wp-block-button a{
+    padding: 0 !important;
+    width: 65% !important;
+    line-height: unset;
+}
+.boutons-commandes .wp-block-button a:hover, .boutons-commandes .wp-block-button a:focus{
+    background-color: #c02e44 !important;
+}
+
+.boutons-commandes .wp-block-columns {
+    width: 110px;
+}
+.boutons-commandes {
+    display: flex;
+    justify-content: space-between;
+}
+.boutons-commandes .wp-block-button:first-child a:first-child{
+    border-bottom: solid 1px #fff;
+}
+.boutons-commandes .wp-block-column p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    height: 100%;
+    padding: 0;
+    border-radius: 7px 0 0 7px;
+}
+.button-ok-perso{
+    height: 100%;
+}
+.button-ok-perso .wp-block-button a{
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: unset !important;
+
+}
